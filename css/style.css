@@ -1,0 +1,184 @@
+/* Navigation styles */
+  img {
+  size:150px;
+  }
+  h1{
+    text-align: center;
+  }
+
+  .nav {
+    display: flex;
+    background-color: rgb(219, 219, 219);
+    padding: 20px;
+  }
+  
+  .left, .center{
+    height: 50px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  .left, .right {
+    width: 50%;
+  }
+  .center {
+    width: 50%;
+  }
+  
+  .right a {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    align-content: right;
+  }
+  
+  
+  .logo { 
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 24px;
+    width: 100%;
+  }
+  
+  /* Column styles */
+ /* .column {
+    display: flex;
+    height: 1200px;
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  
+  .intro, .meal2, .meal3 {
+    height: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+  }*/
+
+
+    
+  .work2 {
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .text {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    padding: 20px 40px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    
+  }
+  .text p {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    padding: 10%;
+  }
+  .text h1 {
+    font-family: Sen, Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    width:100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .text h2{
+    font-size:24px;
+    text-align: center;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: rgb(219, 219, 219);
+    height: 100px;
+  }
+  
+  .footer a {
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  }
+  
+  .ig {
+    color: rgb(47, 0, 255);
+  }
+  
+  .fb {
+    color:rgb(14, 142, 192);
+  }
+  
+  .tw {
+    color: rgb(82, 82, 177);
+  }
+ 
+ .flexcontainer{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  background-color: rgb(221, 221, 221);
+ }
+
+ .banner{
+  align-content: center;
+ }
+
+ .grid-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10%;
+ /* width: inherit;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+  "work1 work2 work3"
+  "work4 work5 work6";*/
+ }
+ 
+ .grid-item{
+  width:100%;
+  padding: 10%;
+}
+
+
+ #CTA {
+  grid-area: CTA;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.button{
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: pink;
+    border-radius: 40px;
+  
+}
+
+
+  
